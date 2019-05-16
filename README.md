@@ -32,6 +32,12 @@ Return letter submission data on any campaign associated with a group.  These ca
 
 * `/reports/users`
 
+| parameter  |  required | value  | example  |
+|---|---|---|---|
+|  us_house | no  | State Senate district  | us_house=MT01  |
+|  state_senate | no  | State Senate district  |   |
+| state_house  | no  |  State House district |   |
+
 
 |parameter            |required   |value   |example|
 |---|---|---|
