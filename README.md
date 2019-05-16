@@ -22,7 +22,7 @@ Return letter submission data on any campaign associated with a group.  These ca
 
 
  |parameter            |required   |value   |example|
- |---|---|---|
+ |---|---|---|---|
  |format|no|CSV : The API will email the supplied “send_to” email with the CSV attachment JSON : Supplied in the return body|format=csv|
  |states|no|Returns data for the provided states (comma separated)|states=MT,WY,ND|
  |send_to|no|If CSV, email to the “send_to” address|send_to=user@domain.com|
@@ -39,14 +39,6 @@ Return letter submission data on any campaign associated with a group.  These ca
 | state_house  | no  |  State House district |   |
 
 
-|parameter            |required   |value   |example|
-|---|---|---|
-|us_house|no|US house district|us_house=MT01|
-|state_senate|no|State Senate district||
-|state_house|no|State House district||
-|county_name|no|||
-|municipal_name|no|||
-
 Example:
 ```
 /reports/users?us_house=MT01&format=csv&send_to=user@domain.com
@@ -58,7 +50,7 @@ Example:
 
 
 |parameter            |required   |value   |example|
-|---|---|---|
+|---|---|---|---|
 |bipac_id|yes|The string associated with a campaign|bipac_id=internet_freedom
 
 Example:
